@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
-//Name: Ultimate_Walker_Jump.ma
-//Last modified: Thu, Sep 24, 2026 12:41:41 AM
+//Name: Ultimate_Walker_Jump1.ma
+//Last modified: Thu, Sep 24, 2026 12:41:51 AM
 //Codeset: 1252
 requires maya "2027";
 requires "stereoCamera" "10.0";
@@ -12,7 +12,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "0385EE0E-472C-E9A2-CB55-7D9E81D037FA";
+fileInfo "UUID" "BEC5BD3A-49E6-32D3-63EC-9D9F23956036";
 createNode transform -s -n "persp";
 	rename -uid "EF1B54D9-43B5-9DE4-074B-0C9A29315814";
 	setAttr ".v" no;
@@ -37712,4 +37712,4 @@ connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "Mesh_Flex_GrpShapeOrig.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pPlaneShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "ikRPsolver.msg" ":ikSystem.sol" -na;
-// End of Ultimate_Walker_Jump.ma
+// End of Ultimate_Walker_Jump1.ma
